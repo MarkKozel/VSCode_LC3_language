@@ -1,0 +1,30 @@
+{
+    "name": "asm",
+    "displayName": "LC-3 ISA",
+    "description": "Little Computer 3 (LC-3) Language Support",
+    "version": "0.0.1",
+    "publisher": "MarkKozel",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MarkKozel/VSCode_LC3_language.git"
+    },
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "lc-3",
+            "aliases": ["LC-3", "lc-3"],
+            "extensions": [".asm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "lc-3",
+            "scopeName": "",
+            "path": "./syntaxes/lc-3.tmLanguage.json"
+        }]
+    }
+}
