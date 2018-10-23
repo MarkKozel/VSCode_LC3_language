@@ -1,0 +1,4 @@
+node_modules
+*.vsix
+lc3-asm.code-workspace
+.vscode
